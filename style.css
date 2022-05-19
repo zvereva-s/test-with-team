@@ -1,0 +1,51 @@
+#root{
+    display: flex;
+    height: 100vh;
+}
+.left-side{
+    padding:0 10px;
+    width: 40%;
+    background-color: rgb(255, 196, 0);
+    
+}
+.right-side{
+    width: 60%;
+    background-color: rgba(0, 0, 255, 0.739);
+}
+
+.book-list{
+    list-style: none;
+    padding: 0;
+}
+.add-app-title{
+    text-align: center;
+    font-size: 38px;
+}
+.add-btn{
+    padding: 10px 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+}
+
+.del-book-btn,.edit-book-btn,.add-btn {
+    color: yellow;
+    font-size: 18px;
+    margin-left: auto;
+    padding: 7px 28px;
+    background-color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.del-book-btn{
+    margin-right: 10px;
+}
+.del-book-btn:hover,.edit-book-btn:hover,.add-btn:hover,
+.del-book-btn:focus,.edit-book-btn:focus,.add-btn:focus{
+background-color:yellow;
+color: blue;
+}
